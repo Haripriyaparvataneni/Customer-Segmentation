@@ -8,3 +8,6 @@ mlflow.db
 
 # generated data (recreate with data/generate_data.py)
 data/*.csv
+
+# generated figures (recreate with src/visualize.py; binaries not committed)
+figures/*.png
