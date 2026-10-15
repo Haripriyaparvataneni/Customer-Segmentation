@@ -66,10 +66,10 @@ From an actual run (elbow selected **k=4**):
 - **At Risk** — high historical spend but drifting: win-back campaigns.
 - **Hibernating** — long inactive: low-priority re-engagement.
 
-Plots are saved to `figures/`:
+Plots are saved to `figures/` by step 4 (`python src/visualize.py`):
 
-![RFM distributions](figures/rfm_distributions.png)
-![Customer segments](figures/clusters_2d.png)
+- `figures/rfm_distributions.png` — histograms of Recency/Frequency/Monetary
+- `figures/clusters_2d.png` — Recency vs Monetary scatter colored by segment
 
 ## Notes
 
