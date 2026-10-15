@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.pkl
+mlflow.db
+.env
+
+# generated data (recreate with data/generate_data.py)
+data/*.csv
